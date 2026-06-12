@@ -1,0 +1,10 @@
+autoload -Uz add-zsh-hook
+
+set-title-preexec() {
+    if [[ "$1" == ssh\ * ]]; then
+        local host="${${(z)1}[2]}"
+        print -Pn "\e]0;${host}\a"
+    fi
+}
+
+add-zsh-hook preexec set-title-preexec
