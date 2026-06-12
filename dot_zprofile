@@ -5,6 +5,7 @@ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 # This won't be added again if you remove it.
 source ~/.orbstack/shell/init.zsh 2>/dev/null || :
 
+# Load all shell configuration files from ~/.config/shell
 for file in ~/.config/shell/*; do
     [[ -f "$file" ]] && source "$file"
 done
