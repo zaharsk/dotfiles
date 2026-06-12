@@ -1,0 +1,25 @@
+{
+  "chat.disableAIFeatures": true,
+  "git.alwaysSignOff": true,
+
+  "editor.fontFamily": "JetBrainsMono Nerd Font Propo",
+  "editor.fontSize": 12,
+  "editor.fontLigatures": true,
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "shellformat.path": "shfmt",
+  "[shellscript]": {
+    "editor.defaultFormatter": "foxundermoon.shell-format"
+  },
+  "[toml]": {
+    "editor.defaultFormatter": "tamasfe.even-better-toml"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
