@@ -6,7 +6,7 @@ alias -g -- --help='--help 2>&1 | bat --language=help --style=plain'
 # ripgrep https://github.com/BurntSushi/ripgrep
 alias grep='rg'
 
-# eza 
+# eza https://github.com/eza-community/eza
 alias ls='eza'
 alias ll='eza --long --header --smart-group --git'
 alias la='eza --long --header --smart-group --git --all'
