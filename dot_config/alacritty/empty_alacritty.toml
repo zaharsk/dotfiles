@@ -1,4 +1,5 @@
 [general]
+working_directory = "~"
 
 [window]
 padding = { x = 4, y = 4 }
