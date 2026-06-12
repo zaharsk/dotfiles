@@ -1,0 +1,22 @@
+[user]
+	name = Zakhar Skorokhodov
+	email = zaharsk@gmail.com
+	signingkey = ~/.ssh/id_ed25519.pub
+
+[gpg]
+	format = ssh
+
+[commit]
+	gpgsign = true
+
+[pull]
+	rebase = true
+
+[merge]
+	ff = only
+
+[init]
+	defaultBranch = main
+
+[format]
+	signOff = true
