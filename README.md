@@ -1,7 +1,7 @@
-## Personal dotfiles for macOS
+# Personal dotfiles for macOS
 
-### First time setup
-#### Install brew
+## First time setup
+### Install brew
 ```bash
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 ```
@@ -14,7 +14,7 @@ eval "$(/opt/homebrew/bin/brew shellenv zsh)"
 brew bundle dump --global --force
 ```
 
-#### Prepare chezmoi
+### Prepare chezmoi
 ```bash
 brew install chezmoi
 ```
@@ -33,7 +33,7 @@ chezmoi diff
 ```bash
 chezmoi apply
 ```
-#### Install brew bundle
+### Install brew bundle
 ```bash
 brew bundle list --global --all
 ```
@@ -41,8 +41,8 @@ brew bundle list --global --all
 brew bundle --global --jobs auto
 ```
 
-### SSH
-#### Add ssh-key
+## SSH
+### Add ssh-key
 ```bash
 mkdir -p ~/.ssh
 
@@ -56,7 +56,7 @@ chmod 644 ~/.ssh/id_ed25519.pub
 ssh-add --apple-use-keychain ~/.ssh/id_ed25519
 ```
 
-#### Add ssh agent config
+### Add ssh agent config
 ```bash
 touch ~/.ssh/config
 ```
@@ -77,7 +77,7 @@ Host *
 chezmoi apply
 ```
 
-### Environment variables
+## Environment variables
 ```bash
 mkdir -p ~/.config/shell && touch ~/.config/shell/env
 ```
@@ -131,4 +131,38 @@ git push -u origin main
 ```
 ```bash
 exit
+```
+
+## Alacritty
+```bash
+mkdir -p ~/.config/alacritty/ && touch ~/.config/alacritty/alacritty.toml
+```
+```bash
+chezmoi add ~/.config/alacritty/alacritty.toml
+```
+```bash
+chezmoi edit ~/.config/alacritty/alacritty.toml
+```
+```toml
+[general]
+live_config_reload = true
+
+[window]
+padding = { x = 4, y = 4 }
+dynamic_padding = true
+opacity = 0.5
+blur = true
+
+[font]
+normal = { family = "JetBrainsMono Nerd Font Mono", style = "Regular" }
+bold = { family = "JetBrainsMono Nerd Font Mono", style = "Bold" }
+italic = { family = "JetBrainsMono Nerd Font Mono", style = "Italic" }
+bold_italic = { family = "JetBrainsMono Nerd Font Mono", style = "Bold Italic" }
+size = 12.0
+```
+> [!NOTE]
+> Disable `live_config_reload` after all experiments
+
+```bash
+chezmoi apply
 ```
