@@ -25,13 +25,7 @@ chezmoi init
 chezmoi add ~/.Brewfile
 ```
 ```bash
-chezmoi edit ~/.Brewfile
-```
-```bash
-chezmoi diff
-```
-```bash
-chezmoi apply
+chezmoi edit --watch ~/.Brewfile
 ```
 ### Install brew bundle
 ```bash
@@ -64,7 +58,7 @@ touch ~/.ssh/config
 chezmoi add ~/.ssh/config
 ```
 ```bash
-chezmoi edit ~/.ssh/config
+chezmoi edit --watch ~/.ssh/config
 ```
 
 ```config
@@ -72,9 +66,6 @@ Host *
     AddKeysToAgent yes
     UseKeychain yes
     IdentityFile ~/.ssh/id_ed25519
-```
-```bash
-chezmoi apply
 ```
 
 ## Environment variables
@@ -85,27 +76,27 @@ mkdir -p ~/.config/shell && touch ~/.config/shell/env
 chezmoi add ~/.config/shell/env
 ```
 ```bash
-chezmoi edit ~/.config/shell/env
+chezmoi edit --watch ~/.config/shell/env
 ```
 ```ini
-GITHUB_USERNAME="zaharsk"
-GITHUB_NAME="Zakhar Skorokhodov"
-GITHUB_EMAIL="zaharsk@gmail.com"
+export EDITOR="nvim"
+export VISUAL="code --wait"
+
+export GITHUB_USERNAME="zaharsk"
+export GITHUB_NAME="Zakhar Skorokhodov"
+export GITHUB_EMAIL="zaharsk@gmail.com"
 ```
 ```bash
 chezmoi add ~/.zprofile
 ```
 ```bash
-chezmoi edit ~/.zprofile
+chezmoi edit --watch ~/.zprofile
 ```
 ```bash
 # Load user env, aliases and functions
 for file in ~/.config/shell/*; do
     [[ -f "$file" ]] && source "$file"
 done
-```
-```bash
-chezmoi apply
 ```
 
 > [!WARNING]
@@ -141,7 +132,7 @@ mkdir -p ~/.config/alacritty/ && touch ~/.config/alacritty/alacritty.toml
 chezmoi add ~/.config/alacritty/alacritty.toml
 ```
 ```bash
-chezmoi edit ~/.config/alacritty/alacritty.toml
+chezmoi edit --watch ~/.config/alacritty/alacritty.toml
 ```
 ```toml
 [general]
@@ -162,7 +153,3 @@ size = 12.0
 ```
 > [!NOTE]
 > Disable `live_config_reload` after all experiments
-
-```bash
-chezmoi apply
-```

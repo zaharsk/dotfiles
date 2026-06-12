@@ -1,3 +1,6 @@
-GITHUB_USERNAME="zaharsk"
-GITHUB_NAME="Zakhar Skorokhodov"
-GITHUB_EMAIL="zaharsk@gmail.com"
+export EDITOR="nvim"
+export VISUAL="code --wait"
+
+export GITHUB_USERNAME="zaharsk"
+export GITHUB_NAME="Zakhar Skorokhodov"
+export GITHUB_EMAIL="zaharsk@gmail.com"
