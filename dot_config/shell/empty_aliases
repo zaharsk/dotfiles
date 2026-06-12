@@ -10,3 +10,7 @@ alias grep='rg'
 alias ls='eza'
 alias ll='eza --long --header --smart-group --git'
 alias la='eza --long --header --smart-group --git --all'
+
+# VIM
+alias vi='nvim'
+alias vim='nvim'
