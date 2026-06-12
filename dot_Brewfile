@@ -27,6 +27,8 @@ cask "obsidian"
 cask "telegram"
 cask "chatgpt"
 cask "font-JetBrains-Mono-nerd-font"
+cask "steam"
+cask "minecraft"
 
 vscode "esbenp.prettier-vscode"
 vscode "foxundermoon.shell-format"
