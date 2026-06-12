@@ -2,6 +2,8 @@ tap "netbirdio/tap", trusted: true
 
 brew "chezmoi"
 brew "bat"
+brew "bat-extras"
+brew "ripgrep"
 brew "eza"
 brew "git"
 brew "gh"
