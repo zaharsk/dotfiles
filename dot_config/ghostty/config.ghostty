@@ -12,6 +12,6 @@ font-style-italic = Italic
 font-style-bold-italic = Bold Italic
 
 background-opacity = 0.40
-background-blur = macos-glass-clear
+background-blur = 20
 
 auto-update = off
