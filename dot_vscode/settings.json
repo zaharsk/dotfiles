@@ -1,8 +1,10 @@
 {
   "chat.disableAIFeatures": true,
-  "git.alwaysSignOff": true,
   "telemetry.telemetryLevel": "off",
   "workbench.startupEditor": "none",
+
+  "git.alwaysSignOff": true,
+  "git.autofetch": true,
 
   "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
   "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
