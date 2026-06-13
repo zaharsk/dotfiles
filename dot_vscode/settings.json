@@ -1,12 +1,18 @@
 {
   "chat.disableAIFeatures": true,
   "git.alwaysSignOff": true,
+  "telemetry.telemetryLevel": "off",
+  "workbench.startupEditor": "none",
+
+  "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
+  "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
+
+  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
+  "terminal.integrated.initialHint": false,
 
   "editor.fontFamily": "JetBrainsMono Nerd Font Propo",
   "editor.fontSize": 12,
   "editor.fontLigatures": true,
-
-  "terminal.integrated.fontFamily": "JetBrainsMono Nerd Font Mono",
 
   "editor.formatOnSave": true,
   "editor.formatOnPaste": true,
