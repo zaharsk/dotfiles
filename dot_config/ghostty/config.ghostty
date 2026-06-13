@@ -15,3 +15,5 @@ background-opacity = 0.40
 background-blur = 20
 
 auto-update = off
+
+shell-integration-features = true
