@@ -1,5 +1,7 @@
 autoload -Uz compinit
 compinit
 
+bindkey -e
+
 eval "$(chezmoi completion zsh)"
 eval "$(starship init zsh)"
