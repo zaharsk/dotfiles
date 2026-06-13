@@ -53,6 +53,8 @@ cask "obsidian"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Video game digital distribution service
+cask "rustdesk"
+# Open source virtual/remote desktop application
 cask "steam"
 # Messaging app with a focus on speed and security
 cask "telegram"
