@@ -5,6 +5,7 @@
 
   "git.alwaysSignOff": true,
   "git.autofetch": true,
+  "git.confirmSync": false,
 
   "containers.containerClient": "com.microsoft.visualstudio.containers.docker",
   "containers.orchestratorClient": "com.microsoft.visualstudio.orchestrators.dockercompose",
