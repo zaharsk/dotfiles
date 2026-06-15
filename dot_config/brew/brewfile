@@ -44,6 +44,8 @@ cask "fork"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
+cask "mac-mouse-fix"
 # Sandbox construction video game
 cask "minecraft"
 # Netbird UI Client
