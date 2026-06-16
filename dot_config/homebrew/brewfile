@@ -27,8 +27,6 @@ brew "starship"
 # UNIX shell (command interpreter)
 brew "zsh"
 
-# GPU-accelerated terminal emulator
-cask "alacritty"
 # Cross platform SQL editor and database management app
 cask "beekeeper-studio"
 # Desktop password and login vault
