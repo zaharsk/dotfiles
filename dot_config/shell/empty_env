@@ -5,4 +5,4 @@ export GITHUB_USERNAME="zaharsk"
 export GITHUB_NAME="Zakhar Skorokhodov"
 export GITHUB_EMAIL="zaharsk@gmail.com"
 
-export HOMEBREW_BUNDLE_FILE="$HOME/.config/brew/brewfile"
+export HOMEBREW_BUNDLE_FILE="$HOME/.config/homebrew/brewfile"

@@ -37,6 +37,7 @@ cask "bitwarden"
 cask "bruno"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# JetBrainsMono Nerd Font families (JetBrains Mono)
 cask "font-jetbrains-mono-nerd-font"
 # GIT client
 cask "fork"
@@ -44,6 +45,8 @@ cask "fork"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
+# Keyboard customiser
+# cask "karabiner-elements"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
 cask "mac-mouse-fix"
 # Sandbox construction video game
