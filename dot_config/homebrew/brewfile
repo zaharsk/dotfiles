@@ -53,6 +53,8 @@ cask "minecraft"
 cask "netbirdio/tap/netbird-ui", trusted: true
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
+# Open source RGB lighting control that doesn't depend on manufacturer software
+cask "openrgb"
 # Replacement for Docker Desktop
 cask "orbstack"
 # Video game digital distribution service
