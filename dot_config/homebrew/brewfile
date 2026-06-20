@@ -35,6 +35,8 @@ cask "bitwarden"
 cask "bruno"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt"
+# Voice and text chat software
+cask "discord"
 # JetBrainsMono Nerd Font families (JetBrains Mono)
 cask "font-jetbrains-mono-nerd-font"
 # GIT client
