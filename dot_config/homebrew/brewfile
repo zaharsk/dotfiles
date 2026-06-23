@@ -12,12 +12,18 @@ brew "eza"
 brew "gh"
 # Distributed revision control system
 brew "git"
+# Port of http_parser to llparse
+brew "llhttp"
+# Just-In-Time Compiler (JIT) for the Lua programming language
+brew "luajit"
 # Terminal-based visual file manager
 brew "midnight-commander"
 # Deep clean and optimize your Mac
 brew "mole"
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
+# Netbird CLI
+brew "netbirdio/tap/netbird", trusted: true
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Autoformat shell script source code
@@ -45,13 +51,11 @@ cask "fork"
 cask "ghostty"
 # Web browser
 cask "google-chrome"
-# Keyboard customiser
-# cask "karabiner-elements"
 # Mouse utility to add gesture functions and smooth scrolling to 3rd party mice
 cask "mac-mouse-fix"
 # Sandbox construction video game
 cask "minecraft"
-# Netbird UI Client
+# Netbird GUI
 cask "netbirdio/tap/netbird-ui", trusted: true
 # Knowledge base that works on top of a local folder of plain text Markdown files
 cask "obsidian"
