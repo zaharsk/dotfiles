@@ -1,7 +1,15 @@
+# Load all zsh completions from ~/.config/zsh/completions
+fpath=(~/.config/zsh/completions $fpath)
+
 autoload -Uz compinit
 compinit
 
 bindkey -e
 
-eval "$(chezmoi completion zsh)"
 eval "$(starship init zsh)"
+eval "$(brew shellenv zsh)"
+
+# Load all shell configuration files from ~/.config/shell
+for file in ~/.config/shell/*; do
+    [[ -f "$file" ]] && source "$file"
+done
