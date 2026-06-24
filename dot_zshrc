@@ -7,7 +7,6 @@ compinit
 bindkey -e
 
 eval "$(starship init zsh)"
-eval "$(brew shellenv zsh)"
 
 # Load all shell configuration files from ~/.config/shell
 for file in ~/.config/shell/*; do
