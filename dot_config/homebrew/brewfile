@@ -6,6 +6,8 @@ brew "bat"
 brew "bat-extras"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
+# Command-line DNS Client for Humans
+brew "doggo"
 # Modern, maintained replacement for ls
 brew "eza"
 # GitHub command-line tool
