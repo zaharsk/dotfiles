@@ -1,6 +1,8 @@
 tap "netbirdio/tap", trusted: true
 tap "TabularisDB/tabularis", trusted: true
 
+# Simple, modern, secure file encryption
+brew "age"
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
