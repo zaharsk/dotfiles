@@ -1,4 +1,5 @@
 tap "netbirdio/tap", trusted: true
+tap "TabularisDB/tabularis", trusted: true
 
 # Clone of cat(1) with syntax highlighting and Git integration
 brew "bat"
@@ -67,6 +68,8 @@ cask "orbstack"
 cask "rustdesk"
 # Open source virtual/remote desktop application
 cask "steam"
+# Tabularis is an open-source desktop SQL workspace
+cask "tabularis"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Open-source code editor
@@ -75,7 +78,6 @@ cask "visual-studio-code"
 cask "vlc"
 
 vscode "barnim.markdown-code-copy-button"
-vscode "devglobe.devglobe"
 vscode "docker.docker"
 vscode "esbenp.prettier-vscode"
 vscode "irongeek.vscode-env"
