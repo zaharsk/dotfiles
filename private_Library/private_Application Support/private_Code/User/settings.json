@@ -3,6 +3,8 @@
   "telemetry.telemetryLevel": "off",
   "workbench.startupEditor": "none",
 
+  "devglobe.trackingEnabled": true,
+
   "git.alwaysSignOff": true,
   "git.autofetch": true,
   "git.confirmSync": false,
