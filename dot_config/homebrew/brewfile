@@ -75,6 +75,7 @@ cask "visual-studio-code"
 cask "vlc"
 
 vscode "barnim.markdown-code-copy-button"
+vscode "devglobe.devglobe"
 vscode "docker.docker"
 vscode "esbenp.prettier-vscode"
 vscode "irongeek.vscode-env"
