@@ -11,8 +11,8 @@ font-style-bold = Bold
 font-style-italic = Italic
 font-style-bold-italic = Bold Italic
 
-background-opacity = 0.50
-background-blur = 50
+background-opacity = 0.60
+background-blur = 60
 
 auto-update = off
 
