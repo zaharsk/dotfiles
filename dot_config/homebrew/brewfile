@@ -31,6 +31,8 @@ brew "mole"
 brew "neovim"
 # Netbird CLI
 brew "netbirdio/tap/netbird", trusted: true
+# Port scanning utility for large networks
+brew "nmap"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Autoformat shell script source code
