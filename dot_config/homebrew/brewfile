@@ -33,12 +33,16 @@ brew "neovim"
 brew "netbirdio/tap/netbird", trusted: true
 # Port scanning utility for large networks
 brew "nmap"
+# Cryptography and SSL/TLS Toolkit
+brew "openssl"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Autoformat shell script source code
 brew "shfmt"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Incremental parsing library
+brew "tree-sitter"
 # UNIX shell (command interpreter)
 brew "zsh"
 
