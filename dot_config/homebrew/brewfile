@@ -43,6 +43,8 @@ brew "ripgrep"
 brew "shfmt"
 # Cross-shell prompt for astronauts
 brew "starship"
+# Command-line interface for SQLite
+brew "sqlite"
 # Incremental parsing library
 brew "tree-sitter"
 # UNIX shell (command interpreter)
