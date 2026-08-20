@@ -1,5 +1,5 @@
 tap "netbirdio/tap", trusted: true
-tap "TabularisDB/tabularis", trusted: true
+# tap "TabularisDB/tabularis", trusted: true
 
 # Simple, modern, secure file encryption
 brew "age"
@@ -83,7 +83,7 @@ cask "rustdesk"
 # Open source virtual/remote desktop application
 cask "steam"
 # Tabularis is an open-source desktop SQL workspace
-cask "tabularis"
+# cask "tabularis"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Open-source code editor
