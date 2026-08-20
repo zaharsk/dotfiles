@@ -7,6 +7,8 @@ brew "age"
 brew "bat"
 # Bash scripts that integrate bat with various command-line tools
 brew "bat-extras"
+# Mozilla CA certificate store
+brew "ca-certificates"
 # Manage your dotfiles across multiple diverse machines, securely
 brew "chezmoi"
 # Command-line DNS Client for Humans
@@ -19,6 +21,8 @@ brew "gh"
 brew "git"
 # Core application library for C
 brew "glib"
+# C library of Git core methods that is re-entrant and linkable
+brew "libgit2"
 # C library implementing the SSH2 protocol
 brew "libssh2"
 # Port of http_parser to llparse
@@ -37,6 +41,8 @@ brew "netbirdio/tap/netbird", trusted: true
 brew "nmap"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl"
+# Interpreted, interactive, object-oriented programming language
+brew "python"
 # Search tool like grep and The Silver Searcher
 brew "ripgrep"
 # Autoformat shell script source code
