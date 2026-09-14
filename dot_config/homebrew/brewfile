@@ -64,6 +64,8 @@ cask "bitwarden"
 cask "bruno"
 # OpenAI's official ChatGPT desktop app
 cask "chatgpt" if OS.mac? && Hardware::CPU.arm?
+# Server and cloud storage browser
+cask "cyberduck"
 # Voice and text chat software
 cask "discord"
 # JetBrainsMono Nerd Font families (JetBrains Mono)
