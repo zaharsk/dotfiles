@@ -32,7 +32,7 @@ brew "luajit"
 # Terminal-based visual file manager
 brew "midnight-commander"
 # Deep clean and optimize your Mac
-brew "mole"
+brew "mole" if OS.mac? && Hardware::CPU.arm?
 # Ambitious Vim-fork focused on extensibility and agility
 brew "neovim"
 # Netbird CLI
