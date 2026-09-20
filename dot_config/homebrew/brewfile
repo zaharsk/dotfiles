@@ -41,6 +41,8 @@ brew "neovim"
 brew "netbirdio/tap/netbird", trusted: true
 # Port scanning utility for large networks
 brew "nmap"
+# Tiny, lightning fast, feature-packed file manager
+brew "nnn"
 # Cryptography and SSL/TLS Toolkit
 brew "openssl"
 # Interpreted, interactive, object-oriented programming language
