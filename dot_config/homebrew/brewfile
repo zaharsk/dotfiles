@@ -96,6 +96,8 @@ cask "rustdesk"
 cask "steam"
 # Tabularis is an open-source desktop SQL workspace
 # cask "tabularis"
+# JDK from the Eclipse Foundation (Adoptium)
+cask "temurin"
 # Messaging app with a focus on speed and security
 cask "telegram"
 # Open-source code editor
